@@ -13,7 +13,8 @@
     "axios": "^0.26.1",
     "cors": "^2.8.5",
     "express": "^4.17.3",
-    "helmet": "^5.0.2"
+    "helmet": "^5.0.2",
+    "pg": "^8.7.3"
   },
   "devDependencies": {
     "dotenv": "^16.0.0",
