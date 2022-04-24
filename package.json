@@ -4,12 +4,19 @@
   "description": "",
   "private": true,
   "license": "ISC",
-  "scripts": {},
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon -r dotenv/config"
+  },
   "dependencies": {
     "axios": "^0.26.1",
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "helmet": "^5.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
